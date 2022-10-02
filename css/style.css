@@ -107,8 +107,8 @@ body {
     position: absolute;
     width: 281px;
     height: 66px;
-    left: calc(50% - 281px / 2 + 0.5px);
-    top: 280px;
+    left: 430px;
+    top: 380px;
 
     background: #FF4343;
     border-radius: 8px;
@@ -222,33 +222,39 @@ body {
     top: 30px;
     animation: shoot-img1 2s alternate linear;
 }
+
 #enrich {
     background: #100E14;
     height: 600px;
 
 }
-.enrich{
+
+.enrich {
     display: flex;
     position: relative;
 }
+
 .enrich-img1 {
     position: absolute;
     height: 422px;
-right: 650px;
+    right: 650px;
 
 
     border-radius: 0px;
 }
+
 .enrich-img2 {
     position: absolute;
     height: 422px;
-right: 650px;
+    right: 650px;
     border-radius: 0px;
 }
+
 .enrich-text {
     position: absolute;
     right: 10px;
 }
+
 .enrich-text h1 {
     font-weight: 400;
     font-size: 58px;
@@ -260,14 +266,525 @@ right: 650px;
     color: #FFFFFF;
 
 }
+
 .enrich-text p {
     font-weight: 400;
     font-size: 27px;
-    line-height: 38px;
-    /* or 140% */
 
-    letter-spacing: 1.08px;
 
     color: rgba(255, 255, 255, 0.5);
 
+}
+
+#add {
+    background: #100E14;
+
+
+}
+
+.add {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.add-text {
+    margin-top: 100px;
+}
+
+.add h1 {
+
+    font-weight: 400;
+    font-size: 54px;
+
+
+    color: #FFFFFF;
+
+
+}
+
+.add p {
+
+    font-size: 27px;
+
+
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.add-img {
+    position: absolute;
+    margin-top: 100px;
+    right: 50px;
+}
+
+/*SHARE*/
+#share {
+    height: 770px;
+    background: #100E14;
+}
+
+.share {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.share img {
+
+    margin-top: 250px;
+
+}
+
+
+.share-text {
+    margin-top: 120px;
+}
+
+.share-text h1 {
+    font-weight: 400;
+    font-size: 58px;
+    margin-bottom: 20px;
+
+
+    color: #FFFFFF;
+
+}
+
+.share-text p {
+    font-weight: 400;
+    font-size: 25px;
+
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+/*SHARE*/
+#center {
+    height: 1157px;
+    background: #100E14;
+}
+
+
+.center .center-top {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.center-top h1 {
+    font-weight: 400;
+    font-size: 61px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+span {
+    width: 120px;
+    height: 5px;
+    left: calc(50% - 120px / 2);
+    top: 341px;
+
+    background: #FF4343;
+    border-radius: 0px;
+    margin-left: 520px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.center-top p {
+    font-weight: 400;
+    font-size: 26px;
+
+
+    text-align: center;
+
+    margin-bottom: 110px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.card {
+    position: relative;
+    right: 120px;
+    margin-left: 20px;
+}
+
+.card-text h3 {
+    font-weight: 400;
+    font-size: 29px;
+
+
+    text-align: center;
+    background: rgba(0, 0, 0, 0.46);
+
+    color: #FFFFFF;
+
+}
+
+.card-text h5 {
+    font-weight: 400;
+    font-size: 16px;
+
+
+    text-align: center;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.46);
+}
+
+.card-text p {
+    font-weight: 400;
+    font-size: 15px;
+
+    text-align: center;
+
+    background: rgba(0, 0, 0, 0.46);
+    color: rgba(255, 255, 255, 0.65);
+
+}
+
+.card-text {
+    opacity: 0;
+    transition: 0.7s;
+    background: rgba(0, 0, 0, 0.46);
+position: absolute;
+    bottom: 30px;
+    align-items: center;
+    left: 40px;
+}
+
+
+.card:hover .card-text {
+    opacity: 1;
+    transition: 0.7s;
+    transform: translateY(-40px);
+    background: rgba(0, 0, 0, 0.46);
+}
+
+.center-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*OFFER*/
+#offer {
+    background: #100E14;
+    height: 1362px;
+}
+.offer{
+
+}
+.offer p {
+    font-weight: 400;
+    font-size: 22px;
+
+
+    text-align: center;
+
+margin-bottom: 30px;
+    color: #8BFFB0;
+
+}
+.offer h1 {
+    font-weight: 400;
+    font-size: 58px;
+    margin-bottom: 30px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.offer h6 {
+    font-weight: 400;
+    font-size: 27px;
+
+    margin-bottom: 30px;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.offer-img {
+    margin-top: 40px;
+
+}
+/*OFFER*/
+#what {
+    background: #100E14;
+    height: 433px;
+}
+.what {
+    background: #1D1B24;
+    border-radius: 30px;
+    height: 433px;
+position: relative;
+}
+.what-text {
+    position: absolute;
+    top: 130px;
+    left: 180px;
+}
+.what h1{
+    font-weight: 400;
+    font-size: 63px;
+
+    text-align: center;
+margin-bottom: 30px;
+
+    color: #FFFFFF;
+
+}
+.what p {
+    font-weight: 400;
+    font-size: 27px;
+margin-bottom: 20px;
+
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.7);
+
+}
+button{
+margin-left: 190px;
+display: flex;
+    align-items: center;
+    width: 281px;
+    height: 66px;
+    left: calc(50% - 281px/2 + 0.5px);
+    top: 297px;
+border: none;
+    background: #FF4343;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 26px;
+
+cursor: pointer;
+
+
+    color: #FFFFFF;
+
+}
+.fa-arrow-right  {
+    color:white;
+    border: 0.5px;
+
+
+}
+#ican{
+    background: url("../img/Frame.png")no-repeat center/cover;
+    height: 432px;
+}
+
+/*FEATURED*/
+#featured{
+    background: #100E14;
+    height: 850px;
+}
+.featured h1 {
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    /* identical to box height, or 121% */
+
+    letter-spacing: 1.92px;
+
+    color: #FFFFFF;
+
+}
+.featured-card{
+    display: flex;
+    margin-top: 90px;
+}
+.card1-text h2{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 20px;
+    /* identical to box height, or 105% */
+position: absolute;
+    letter-spacing: 0.42px;
+
+    color: #FFFFFF;
+
+}
+.fa-youtube {
+    color: #FFFFFF;
+}
+.card1-text p {
+    position: absolute;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height, or 154% */
+margin-top: 40px;
+    letter-spacing: 0.42px;
+
+    color: #FFFFFF;
+
+}
+.card1 {
+position: relative;
+}
+.card1-text {
+display: flex;
+    margin-top: -90px;
+    margin-left:10px;
+}
+.card2{
+    background: url("../img/featured1.png") no-repeat center/cover;
+    height:450px;
+    width: 350px;
+}
+.card2-text h4 {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 20px;
+    /* identical to box height, or 105% */
+
+    letter-spacing: 0.6px;
+display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
+    margin-top: 100px;
+    margin-left: 150px;
+    justify-content: space-around;
+}
+
+.card2-h4 {
+    margin-top: 700px;
+}
+
+.card2-text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 138% */
+
+    letter-spacing: 0.42px;
+margin-top: 30px;
+    margin-left: 30px;
+    color: #FFFFFF;
+}
+.card2-text h3 {
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 36px;
+    /* or 124% */
+
+    letter-spacing: 0.42px;
+margin-top: 20px;
+    margin-left: 30px;
+    color: #FFFFFF;
+
+}
+.card2-text h5{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    letter-spacing: 0.24px;
+    text-transform: uppercase;
+
+    color: #95FEC1;
+margin-top: 20px;
+    margin-left: 30px;
+}
+.card {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.featured-card2 {
+display: flex;
+    margin-top: 90px;
+margin-left: 200px;
+
+
+}
+/*FEATURED*/
+#bottom{
+    background: #000;
+    height: 433px;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom img {
+    margin-bottom: 90px;
+}
+.bottom-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.product{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: white;
+margin-left:10px ;
+    margin-top: 100px;
+}
+.product h2{
+    margin-bottom: 40px;
+}
+.product a {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.product2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+margin-left:300px ;
+    margin-top: 70px;
+}
+.product2 h2{
+    margin-bottom: 40px;
+}
+.product2 a {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.product3{
+    display: flex;
+    flex-direction: column;
+    color: white;
+margin-left:230px ;
+    margin-top: 100px;
+}
+.product3 h2{
+    margin-bottom: 40px;
+}
+.product3 a {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+}
+.youtube {
+padding: 10px 10px;
+}
+.instagram{
+    padding: 10px 10px;
+}
+.twitter{
+    padding: 10px 10px;
 }
